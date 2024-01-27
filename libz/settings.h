@@ -28,7 +28,7 @@ WDIRDefines getcwd(){
         exit(1);
     }
 }
-
+//eof
 //defining log functions
 
 void print_error_msg(const char* msg){
