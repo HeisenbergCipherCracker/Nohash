@@ -1,12 +1,18 @@
-#include <iostream>
+#include <stdio.h>
 
 typedef struct{
     int* numerical;
-    std::string* str;
+    const char* str;
     char* char_;
     int* bool_;
 }MulArr;
 
+
+typedef struct {
+    const char* str_workdir;
+    int* error;
+
+}WDIRDefines;
 
 /*
 int main() {
